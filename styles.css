@@ -1,20 +1,32 @@
 .block {
   display: inline-flex;
   height: 300px;
-  width: 300px;
+  width: 30vh;
+  align-items: center;
+  justify-content: center;
 }
 .block_red {
   background-color: red;
+  display: flex;
+  display: inline-block;
 }
 .block_green {
   background-color: green;
+  display: flex;
+  display: inline-block;
 }
 .block_blue {
   background-color: blue;
+  display: flex;
+  display: inline-block;
 }
 .block_yellow {
   background-color: yellow;
+  display: flex;
+  display: inline-block;
 }
 .block_black {
   background-color: black;
+  display: flex;
+  display: inline-block;
 }
