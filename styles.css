@@ -1,7 +1,7 @@
 .block {
   display: inline-flex;
   height: 300px;
-  width: 30vh;
+  width: 40vh;
   align-items: center;
   justify-content: center;
 }
