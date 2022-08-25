@@ -1,26 +1,23 @@
+body {
+  display: flex;
+}
 .block {
-  display: inline-flex;
+  display: flex;
   height: 300px;
-  min-width: 43vh;
-  flex-direction: row;
+  width: 100vh;
 }
 .block_red {
   background-color: red;
-  flex-grow: 1;
 }
 .block_green {
   background-color: green;
-  flex-grow: 1;
 }
 .block_blue {
   background-color: blue;
-  flex-grow: 1;
 }
 .block_yellow {
   background-color: yellow;
-  flex-grow: 1;
 }
 .block_black {
   background-color: black;
-  flex-grow: 1;
 }
