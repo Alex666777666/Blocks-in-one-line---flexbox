@@ -1,32 +1,26 @@
 .block {
   display: inline-flex;
   height: 300px;
-  width: 33vh;
-  align-items: center;
-  justify-content: center;
+  min-width: 100vh;
+  flex-direction: row;
 }
 .block_red {
   background-color: red;
-  display: flex;
-  display: inline-block;
+  flex-grow: 1;
 }
 .block_green {
   background-color: green;
-  display: flex;
-  display: inline-block;
+  flex-grow: 1;
 }
 .block_blue {
   background-color: blue;
-  display: flex;
-  display: inline-block;
+  flex-grow: 1;
 }
 .block_yellow {
   background-color: yellow;
-  display: flex;
-  display: inline-block;
+  flex-grow: 1;
 }
 .block_black {
   background-color: black;
-  display: flex;
-  display: inline-block;
+  flex-grow: 1;
 }
